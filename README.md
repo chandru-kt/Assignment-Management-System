@@ -9,7 +9,7 @@ uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 pytest test_app.py
 
 # API Endpoints
-### Student Endpoints
+## Student Endpoints
 
 #### GET /student/assignments
 List all assignments created by a student.
@@ -23,7 +23,7 @@ Edit an existing assignment (if it is in the draft state).
 #### POST /student/assignments/submit
 Submit an assignment for grading.
 
-### Teacher Endpoints
+## Teacher Endpoints
 
 #### GET /teacher/assignments
 List all assignments submitted to the teacher.
@@ -31,7 +31,7 @@ List all assignments submitted to the teacher.
 #### POST /teacher/assignments/grade
 Grade an assignment.
 
-### Principal Endpoints
+## Principal Endpoints
 
 #### GET /principal/teachers
 List all teachers.
